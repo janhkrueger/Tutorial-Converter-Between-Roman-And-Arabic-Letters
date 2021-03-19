@@ -65,7 +65,7 @@ using namespace std;
 // Lösung durch die find() langsam, geht schneller. Aber sind drei Guinness.
 
 
-int main() {  
+int main(int argc, char *argv[]) {  
     std::string userInputConvertableNumber = argv[1];
 
 
