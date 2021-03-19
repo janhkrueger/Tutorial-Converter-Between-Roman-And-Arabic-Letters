@@ -66,10 +66,8 @@ using namespace std;
 
 
 int main() {  
-    std::string userInputConvertableNumber;
+    std::string userInputConvertableNumber = argv[1];
 
-    std::cout << "Please type the number to convert: ";
-    std::cin >> userInputConvertableNumber;
 
     if( isdigit(userInputConvertableNumber[0]) ) {
         std::cout << "Wert als Integer " << userInputConvertableNumber << " : Als römische Zíffer " << convertIntToRoman( stoi (userInputConvertableNumber) ) << std::endl;
