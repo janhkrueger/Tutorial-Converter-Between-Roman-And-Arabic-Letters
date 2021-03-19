@@ -4,7 +4,7 @@ build:
   stage: build
   script:
     -  make -f make
-    - ./ConverterBetweenRomanAndArabicNumbers
-  artifacts:
-    paths:
-      - ConverterBetweenRomanAndArabicNumbers
+    - ./ConverterBetweenRomanAndArabicNumbers 27
+    - ./ConverterBetweenRomanAndArabicNumbers XVII
+    - ./ConverterBetweenRomanAndArabicNumbers 2999
+    - ./ConverterBetweenRomanAndArabicNumbers MMCMXCIX
