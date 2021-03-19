@@ -8,5 +8,5 @@ OBJECTS=$(SOURCES:.cpp=.o)
 
 all:
 	export GLIBCXX_FORCE_NEW=true
-	$(CC) $(CFLAGS) -O3 $(SOURCES) $(CLIBS) $(CINCLUDES) -o ConverterBetweemRomanAndArabicNumbers
+	$(CC) $(CFLAGS) -O3 $(SOURCES) $(CLIBS) $(CINCLUDES) -o ConverterBetweenRomanAndArabicNumbers
 	export GLIBCXX_FORCE_NEW=false
